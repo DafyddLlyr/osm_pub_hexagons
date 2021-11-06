@@ -1,0 +1,251 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "678wozt",
+          "type": "hexagonId",
+          "config": {
+            "dataId": "jte2nmi46",
+            "label": "hex_id",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "hex_id": "hex_id"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "enable3d": false,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "coverageRange": [
+                0,
+                1
+              ],
+              "elevationScale": 25,
+              "enableElevationZoomFactor": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "value",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "value",
+              "type": "integer"
+            },
+            "sizeScale": "linear",
+            "coverageField": null,
+            "coverageScale": "linear"
+          }
+        },
+        {
+          "id": "dn3zy5a",
+          "type": "hexagonId",
+          "config": {
+            "dataId": "6iluijhlg",
+            "label": "hex_id",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "hex_id": "hex_id"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "coverage": 1,
+              "enable3d": true,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "coverageRange": [
+                0,
+                1
+              ],
+              "elevationScale": 17.5,
+              "enableElevationZoomFactor": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "value",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "sizeField": {
+              "name": "value",
+              "type": "integer"
+            },
+            "sizeScale": "linear",
+            "coverageField": null,
+            "coverageScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "6iluijhlg": [
+              {
+                "name": "hex_id",
+                "format": null
+              },
+              {
+                "name": "value",
+                "format": null
+              }
+            ],
+            "jte2nmi46": [
+              {
+                "name": "hex_id",
+                "format": null
+              },
+              {
+                "name": "value",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 24,
+      "dragRotate": true,
+      "latitude": 53.872941468742425,
+      "longitude": -3.582626120835616,
+      "pitch": 50,
+      "zoom": 5.733891879068554,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "dark",
+      "topLayerGroups": {
+        "label": true
+      },
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {}
+    }
+  }
+}
